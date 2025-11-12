@@ -54,6 +54,8 @@ The dashboard should enable monitoring of key metrics such as:
 -
 
 ### ⚙️ Deliverables & Execution
+The workflow should be developed in the pulled repository and should run through the given main.py
+
 Package your full project in a local Docker container.
 
 Include a Dockerfile or docker-compose.yml that builds and runs the pipeline.
@@ -164,6 +166,8 @@ Ce tableau doit permettre le suivi des indicateurs suivants :
 🧭 Le tableau de bord peut être développé dans un notebook Jupyter et doit pouvoir lire des fichiers intermédiaires pré-calculés si nécessaire.
 
 ### ⚙️ Livrables et exécution
+
+Le flux de travail doit être développé dans le dépôt cloné et exécuté via le fichier **main.py** fourni.
 
 Emballez l’ensemble du projet dans un conteneur Docker local.
 
