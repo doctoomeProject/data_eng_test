@@ -1,7 +1,8 @@
 import pandas as pd
 import pytest
+import os
 
-username = "dinis_timoteo"
+username = os.getenv("USERNAME")
 
 @pytest.fixture(scope="module")
 def medication_merged():
